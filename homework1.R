@@ -21,7 +21,7 @@ linreg=function(){
    #new we can copmute the coefficients using closed forms 
    transpose<-t(new_m)
    inverse1<-solve(transpose %*% new_m)
-   target<-m[,11]
+   target<-m[,12]
    target<-as.matrix(target)
    cof<-inverse1%*%(transpose %*% target)
    
