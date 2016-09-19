@@ -1,3 +1,6 @@
+#Cuiqing Li
+#cli92@jhu.edu
+
 library(dplyr)
 library(xlsx)
 library(MASS)
